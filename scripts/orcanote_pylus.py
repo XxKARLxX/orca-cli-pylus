@@ -33,9 +33,8 @@ ORCANOTE_CLI_PATH = r"C:\Users\karl_\.config\opencode\skills\orcanote_skill\orca
 # 仓库别名配置（用户可自定义）
 # 未指定 --repo 参数时使用 default
 REPO_CONFIG = {
-    "default": "5bbuf6k97h79i",
-    "oppo": "5bbuf6k97h79i",
-    "test": "lafucz8rh5ysn",  # 测试仓库
+    "default": "your_repoif",
+    "your_repo_alias": "your_repoif",
 }
 
 def get_repo_id(alias: str = "default") -> str:
