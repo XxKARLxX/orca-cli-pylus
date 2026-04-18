@@ -143,21 +143,6 @@ python scripts/orcanote_pylus.py search --text "keyword"
 ```
 ```
 
-**放置位置示意：**
-
-```markdown
-# OrcaNote CLI
-...
-## Guardrails
-...
-
-## Windows Python Wrapper    ← ← ← 插入到这里
-...（上面的全部内容）
-
-## References                 ← ← ← 在这之前
-...
-```
-
 ## ⚙️ 配置
 
 修改脚本顶部的仓库别名：
