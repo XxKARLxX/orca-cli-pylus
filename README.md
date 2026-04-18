@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**封装 OrcaNote 命令行工具的 Python 脚本**，解决 Windows 系统下中文编码问题，简化参数传递。
+本项目是对 [OrcaNote CLI](https://github.com/sethyuan/orca-note-cli) 的 Python 封装，感谢原作者 [@sethyuan](https://github.com/sethyuan) 提供优秀的命令行工具。
 
 ## ✨ 功能特点
 
@@ -30,7 +30,7 @@ orca-pylus/
 
 **需要放置到官方技能目录：**
 
-```
+```plaintext
 <opencode>/skills/orcanote_skill/
 ├── orcanote.exe                    # 官方 CLI（已有）
 ├── references/                     # 官方参考文档（已有）
@@ -74,18 +74,7 @@ pip install -r scripts/requirements.txt
 
 ### 4. 配置 SKILL.md
 
-**重要**：需要将以下内容复制粘贴到官方 `SKILL.md` 的 `## References` 部分**之前**：
-
-```markdown
-## Windows Python Wrapper
-
-**推荐在 Windows 系统使用 Python 封装脚本**，解决中文编码问题。
-
-### 脚本位置
-
-```
-scripts/orcanote_pylus.py
-```
+**重要**：需要将本仓库的 `SKILL.md` 内容复制追加到官方 `SKILL.md` ：
 
 ### 安装依赖
 
@@ -274,6 +263,7 @@ journal = cli.get_today_journal()
 | `.xls` | Excel 97-2003 |
 
 ## 🤝 相关项目
+
 
 - [OrcaNote](https://github.com/orcanote) - 虎鲸笔记，一款本地优先的知识管理工具
 
