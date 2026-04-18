@@ -251,6 +251,7 @@ journal = cli.get_today_journal()
 
 
 - [OrcaNote](https://github.com/sethyuan/orca-note) - 虎鲸笔记，一款本地优先的知识管理工具
+- [orca-note-cli](https://github.com/sethyuan/orca-note-cli)
 
 ## 📄 License
 
