@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-本项目是对 [OrcaNote CLI](https://github.com/sethyuan/orca-note-cli) 的 Python 封装，感谢原作者 [@sethyuan](https://github.com/sethyuan) 提供优秀的命令行工具。
+本项目是对 [OrcaNote CLI](https://github.com/sethyuan/orca-note-cli) 的 Python 封装，主要解决Windows 系统下中文编码问题，简化参数传递。使用前需先安装 [OrcaNote CLI](https://github.com/sethyuan/orca-note-cli) ，感谢原作者 [@sethyuan](https://github.com/sethyuan) 提供优秀的命令行工具。
 
 ## ✨ 功能特点
 
